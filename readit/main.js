@@ -1,5 +1,5 @@
 // const { app, BrowserWindow } = require('electron')
-import { app, BrowserWindow } from 'electron'
+import { app, BrowserWindow } from 'electron'//这里很重要啊，之前卡在这里了
 const createWindow = () => {
     const win = new BrowserWindow({
         width: 800,
