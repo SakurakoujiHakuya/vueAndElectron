@@ -10,5 +10,6 @@ btn1.onclick = () => {
 }
 btn2.onclick = async () => {
     let x = await process.readFile()
-    alert(x)
+    // alert(x)
+    console.log(x)
 }

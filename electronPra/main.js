@@ -41,7 +41,7 @@ const createWindow = () => {
         return fs.readFileSync('test.txt').toString()
     })
 
-    console.log('你好')
+    console.log('i am here  ss')
     win.webContents.openDevTools()
     win.loadFile('index.html')
 }
