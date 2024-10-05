@@ -5,7 +5,7 @@ const createWindow = () => {
         width: 800,
         height: 600
     })
-
+    win.webContents.openDevTools()
     win.loadURL('http://localhost:5173')
 }
 app.on('ready', createWindow)
